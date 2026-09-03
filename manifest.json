@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "SolaEver Wallet",
+  "version": "1.0.0",
+  "description": "Secure Solana Wallet for SolaEver",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
